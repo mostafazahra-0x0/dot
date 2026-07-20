@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-03T12:17:30.536Z",
+      "updatedAt": "2026-05-22T21:40:12.461Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-03-03T12:18:44.037Z",
+      "updatedAt": "2026-04-27T15:02:06.263Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "079b06a135401704ea94ab74c7c9d86c92ba259f",
+      "installedAt": "2026-03-03T12:24:33.933Z",
+      "updatedAt": "2026-03-03T12:24:33.933Z"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/remotion-dev/skills.git",
+      "skillPath": "skills/remotion/SKILL.md",
+      "skillFolderHash": "244095954fa19993a6252643f04607dee4ad17d6",
+      "installedAt": "2026-04-27T11:00:04.939Z",
+      "updatedAt": "2026-04-27T11:00:04.939Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "121eecacd86c0aab06aef5cd4663e80c5397cd41",
+      "installedAt": "2026-04-27T15:02:47.183Z",
+      "updatedAt": "2026-04-27T15:02:47.183Z"
+    },
+    "notion-cli": {
+      "source": "makenotion/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/makenotion/skills.git",
+      "skillPath": "skills/notion-cli/SKILL.md",
+      "skillFolderHash": "290c5eff71b9050796cbc7d1e8a6c1adb6107ffc",
+      "installedAt": "2026-04-27T15:05:01.679Z",
+      "updatedAt": "2026-04-27T15:05:01.679Z"
+    },
+    "obsidian-markdown": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-markdown/SKILL.md",
+      "skillFolderHash": "5caf5d9e7de204f3904216857545f2aa36bcfcac",
+      "installedAt": "2026-04-27T15:25:35.585Z",
+      "updatedAt": "2026-04-27T15:25:35.585Z"
+    },
+    "higgsfield-generate": {
+      "source": "higgsfield-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/higgsfield-ai/skills.git",
+      "skillPath": "higgsfield-generate/SKILL.md",
+      "skillFolderHash": "4b7cb5695a4bd86e76bf47af9a8580fc02876180",
+      "installedAt": "2026-05-05T16:29:35.927Z",
+      "updatedAt": "2026-05-05T16:29:35.927Z"
+    },
+    "higgsfield-marketplace-cards": {
+      "source": "higgsfield-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/higgsfield-ai/skills.git",
+      "skillPath": "higgsfield-marketplace-cards/SKILL.md",
+      "skillFolderHash": "3a6198773dc67933ec32c3c37a4ec862358ee3dd",
+      "installedAt": "2026-05-05T16:29:35.929Z",
+      "updatedAt": "2026-05-05T16:29:35.929Z"
+    },
+    "higgsfield-product-photoshoot": {
+      "source": "higgsfield-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/higgsfield-ai/skills.git",
+      "skillPath": "higgsfield-product-photoshoot/SKILL.md",
+      "skillFolderHash": "7e58b91efd41ba5fcb6040a49afbe5aa57be6743",
+      "installedAt": "2026-05-05T16:29:35.933Z",
+      "updatedAt": "2026-05-05T16:29:35.933Z"
+    },
+    "higgsfield-soul-id": {
+      "source": "higgsfield-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/higgsfield-ai/skills.git",
+      "skillPath": "higgsfield-soul-id/SKILL.md",
+      "skillFolderHash": "cb03c31b187f8c081016ae6e761bf73b33f14754",
+      "installedAt": "2026-05-05T16:29:35.934Z",
+      "updatedAt": "2026-05-05T16:29:35.934Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "openclaw",
+    "claude-code",
+    "kiro-cli",
+    "kilo"
+  ]
+}
