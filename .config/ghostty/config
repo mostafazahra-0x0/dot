@@ -1,0 +1,18 @@
+window-height=30
+window-width=130
+confirm-close-surface = false
+font-family = Iosevka Custom
+cursor-style-blink = true
+gtk-titlebar = false
+shell-integration-features = no-cursor
+term = xterm-256color
+background-opacity = 0.7
+font-size = 16
+mouse-hide-while-typing = true
+gtk-tabs-location = hidden
+keybind = ctrl+shift+q=close_surface
+window-padding-color = extend
+scrollbar = never
+background = 2a2019
+window-padding-x = 10
+cursor-color = d9975a
