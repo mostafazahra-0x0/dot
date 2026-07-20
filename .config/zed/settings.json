@@ -1,0 +1,107 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "language_models": {
+    "opencode": {
+      "show_zen_models": true
+    }
+  },
+  "edit_predictions": {
+    "provider": "zed"
+  },
+  "proxy": "",
+  "context_servers": {
+    "mcp-server-notion": {
+      "enabled": true,
+      "remote": false,
+      "settings": {}
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "default_profile": "ask",
+    "tool_permissions": {
+      "tools": {
+        "create_directory": {
+          "default": "allow"
+        },
+        "terminal": {
+          "default": "allow"
+        }
+      }
+    },
+    "default_model": {
+      "provider": "ollama",
+      "model": "minimax-m2.7:cloud",
+      "enable_thinking": true
+    },
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "ui_font_family": "Iosevka Custom",
+  "buffer_font_weight": 900.0,
+  "buffer_font_family": "Iosevka Custom",
+  "minimap": {
+    "show": "auto"
+  },
+  "cursor_blink": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "colorize_brackets": true,
+  "preferred_line_length": 300,
+  "agent_servers": {
+    "pi-acp": {
+      "type": "registry"
+    },
+    "opencode": {
+      "default_config_options": {
+        "effort": "max",
+        "model": "opencode/claude-fable-5"
+      },
+      "type": "registry"
+    },
+    "cursor": {
+      "type": "registry"
+    },
+    "github-copilot-cli": {
+      "type": "registry"
+    },
+    "codex-acp": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "base_keymap": "VSCode",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Flow Deep",
+    "dark": "Flow Deep"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 17.0,
+  "theme": "Duskember"
+}
