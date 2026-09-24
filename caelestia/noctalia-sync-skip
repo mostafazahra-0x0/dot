@@ -1,0 +1,3 @@
+# Template ids the caelestia-noctalia-sync script must never render.
+# One id per line. Listed apps keep hand-maintained configs.
+starship

@@ -1,0 +1,22 @@
+{
+    "city": "Idlib",
+    "country": "Syria",
+    "method": "3",
+    "school": "0",
+    "hijriDayOffset": 0,
+    "fajrAngle": "",
+    "ishaAngle": "",
+    "twelveHourFormat": true,
+    "showNotifications": true,
+    "playAzan": true,
+    "azanPath": "~/.config/caelestia/mawaqit-azan.mp3",
+    "tune": false,
+    "tuneFajr": 0,
+    "tuneDhuhr": 0,
+    "tuneAsr": 0,
+    "tuneMaghrib": 0,
+    "tuneIsha": 0,
+    "fontFamily": "thmanyah sans",
+    "arabicFontFamily": "thmanyah sans",
+    "collapsed": true
+}

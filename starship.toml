@@ -1,0 +1,17 @@
+format = """
+$directory$git_branch$git_status
+$character"""
+
+[package]
+disabled = true
+
+[nodejs]
+disabled = true
+[git_branch]
+format = "[$symbol$branch]($style) "
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+
+
+

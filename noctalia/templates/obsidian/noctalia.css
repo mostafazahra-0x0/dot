@@ -1,0 +1,69 @@
+/* Noctalia generated theme */
+
+.theme-dark {
+    /* Backgrounds */
+    --background-primary: {{ colors.background.dark.hex }};
+    --background-primary-alt: {{ colors.surface.dark.hex }};
+    --background-secondary: {{ colors.surface_container.dark.hex }};
+    --background-secondary-alt: {{ colors.surface_container_high.dark.hex }};
+
+    /* Text */
+    --text-normal: {{ colors.on_background.dark.hex }};
+    --text-muted: {{ colors.on_surface_variant.dark.hex }};
+    --text-faint: {{ colors.outline.dark.hex }};
+
+    /* Accent */
+    --text-accent: {{ colors.primary.dark.hex }};
+    --text-accent-hover: {{ colors.primary_container.dark.hex }};
+    --interactive-accent: {{ colors.primary.dark.hex }};
+    --interactive-accent-hover: {{ colors.primary_container.dark.hex }};
+
+    /* Links */
+    --link-color: {{ colors.primary.dark.hex }};
+    --link-color-hover: {{ colors.primary_container.dark.hex }};
+
+    /* Borders */
+    --background-modifier-border: {{ colors.outline_variant.dark.hex }};
+    --background-modifier-border-hover: {{ colors.outline.dark.hex }};
+
+    /* Selection */
+    --text-selection: {{ colors.primary.dark.hex }}55;
+
+    /* Code */
+    --code-background: {{ colors.surface_container_low.dark.hex }};
+    --code-normal: {{ colors.secondary.dark.hex }};
+}
+
+.theme-light {
+    /* Backgrounds */
+    --background-primary: {{ colors.background.light.hex }};
+    --background-primary-alt: {{ colors.surface.light.hex }};
+    --background-secondary: {{ colors.surface_container.light.hex }};
+    --background-secondary-alt: {{ colors.surface_container_high.light.hex }};
+
+    /* Text */
+    --text-normal: {{ colors.on_background.light.hex }};
+    --text-muted: {{ colors.on_surface_variant.light.hex }};
+    --text-faint: {{ colors.outline.light.hex }};
+
+    /* Accent */
+    --text-accent: {{ colors.primary.light.hex }};
+    --text-accent-hover: {{ colors.primary_container.light.hex }};
+    --interactive-accent: {{ colors.primary.light.hex }};
+    --interactive-accent-hover: {{ colors.primary_container.light.hex }};
+
+    /* Links */
+    --link-color: {{ colors.primary.light.hex }};
+    --link-color-hover: {{ colors.primary_container.light.hex }};
+
+    /* Borders */
+    --background-modifier-border: {{ colors.outline_variant.light.hex }};
+    --background-modifier-border-hover: {{ colors.outline.light.hex }};
+
+    /* Selection */
+    --text-selection: {{ colors.primary.light.hex }}55;
+
+    /* Code */
+    --code-background: {{ colors.surface_container_low.light.hex }};
+    --code-normal: {{ colors.secondary.light.hex }};
+}

@@ -1,0 +1,65 @@
+{
+  "dark": {
+    "minimal-style@@bg1@@dark": "{{ colors.surface.dark.hex }}",
+    "minimal-style@@bg2@@dark": "{{ colors.surface_container.dark.hex }}",
+    "minimal-style@@bg3@@dark": "{{ colors.surface_container_high.dark.hex }}",
+    "minimal-style@@base@@dark": "{{ colors.surface.dark.hex }}",
+
+    "minimal-style@@tx1@@dark": "{{ colors.on_surface.dark.hex }}",
+    "minimal-style@@tx2@@dark": "{{ colors.on_surface_variant.dark.hex }}",
+    "minimal-style@@tx3@@dark": "{{ colors.outline.dark.hex }}",
+
+    "minimal-style@@hl1@@dark": "{{ colors.primary.dark.hex }}",
+    "minimal-style@@hl2@@dark": "{{ colors.primary.dark.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-crust@@dark": "{{ colors.surface_container_lowest.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-mantle@@dark": "{{ colors.surface_container_low.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-base@@dark": "{{ colors.surface.dark.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-surface0@@dark": "{{ colors.surface_container.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-surface1@@dark": "{{ colors.surface_container_high.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-surface2@@dark": "{{ colors.surface_container_highest.dark.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-overlay0@@dark": "{{ colors.outline_variant.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-overlay1@@dark": "{{ colors.outline.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-overlay2@@dark": "{{ colors.on_surface_variant.dark.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-subtext0@@dark": "{{ colors.outline.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-subtext1@@dark": "{{ colors.on_surface_variant.dark.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-text@@dark": "{{ colors.on_surface.dark.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-mauve@@dark": "{{ colors.primary.dark.hex }}"
+  },
+
+  "light": {
+    "minimal-style@@bg1@@light": "{{ colors.surface.light.hex }}",
+    "minimal-style@@bg2@@light": "{{ colors.surface_container.light.hex }}",
+    "minimal-style@@bg3@@light": "{{ colors.surface_container_high.light.hex }}",
+    "minimal-style@@base@@light": "{{ colors.surface.light.hex }}",
+
+    "minimal-style@@tx1@@light": "{{ colors.on_surface.light.hex }}",
+    "minimal-style@@tx2@@light": "{{ colors.on_surface_variant.light.hex }}",
+    "minimal-style@@tx3@@light": "{{ colors.outline.light.hex }}",
+
+    "minimal-style@@hl1@@light": "{{ colors.primary.light.hex }}",
+    "minimal-style@@hl2@@light": "{{ colors.primary.light.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-crust@@light": "{{ colors.surface_container_lowest.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-mantle@@light": "{{ colors.surface_container_low.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-base@@light": "{{ colors.surface.light.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-surface0@@light": "{{ colors.surface_container.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-surface1@@light": "{{ colors.surface_container_high.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-surface2@@light": "{{ colors.surface_container_highest.light.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-overlay0@@light": "{{ colors.outline_variant.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-overlay1@@light": "{{ colors.outline.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-overlay2@@light": "{{ colors.on_surface_variant.light.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-subtext0@@light": "{{ colors.outline.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-subtext1@@light": "{{ colors.on_surface_variant.light.hex }}",
+    "anuppuccin-theme-settings@@ctp-custom-text@@light": "{{ colors.on_surface.light.hex }}",
+
+    "anuppuccin-theme-settings@@ctp-custom-mauve@@light": "{{ colors.primary.light.hex }}"
+  }
+}

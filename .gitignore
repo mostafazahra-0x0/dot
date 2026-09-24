@@ -1,0 +1,31 @@
+# ignore everything by default
+/*
+# allow only these config dirs/files
+!/.gitignore
+!/README.md
+!/hypr
+!/noctalia
+!/caelestia
+!/quickshell
+!/kitty
+!/alacritty
+!/nvim
+!/fish
+!/fastfetch
+!/btop
+!/cava
+!/foot
+!/gtk-3.0
+!/gtk-4.0
+!/qt6ct
+!/niri
+!/fcitx5
+!/starship.toml
+!/mimeapps.list
+# never inside allowed dirs
+**/*.log
+**/Cache/
+**/cache/
+**/*.old-*
+**/*.bak*
+**/quickshell/caelestia.old-2.4.0/

@@ -1,0 +1,67 @@
+/*
+ * Noctalia → AnuPpuccin
+ *
+ * IMPORTANT:
+ * This does NOT replace AnuPpuccin's backgrounds/layout.
+ * It only changes accent-related colors.
+ */
+
+.theme-dark {
+    /* Accent */
+    --color-accent: {{ colors.primary.dark.hex }};
+    --color-accent-1: {{ colors.primary.dark.hex }};
+    --color-accent-2: {{ colors.primary_container.dark.hex }};
+
+    /* Interactive elements */
+    --interactive-accent: {{ colors.primary.dark.hex }};
+    --interactive-accent-hover: {{ colors.primary_container.dark.hex }};
+
+    /* Links */
+    --link-color: {{ colors.primary.dark.hex }};
+    --link-color-hover: {{ colors.primary_container.dark.hex }};
+
+    /* Text */
+    --text-accent: {{ colors.primary.dark.hex }};
+    --text-accent-hover: {{ colors.primary_container.dark.hex }};
+
+    /* Selection */
+    --text-selection:
+        {{ colors.primary.dark.hex | set_alpha 0.22 }};
+
+    /* Borders */
+    --background-modifier-border:
+        {{ colors.outline_variant.dark.hex }};
+
+    --background-modifier-border-hover:
+        {{ colors.outline.dark.hex }};
+}
+
+.theme-light {
+    /* Accent */
+    --color-accent: {{ colors.primary.light.hex }};
+    --color-accent-1: {{ colors.primary.light.hex }};
+    --color-accent-2: {{ colors.primary_container.light.hex }};
+
+    /* Interactive elements */
+    --interactive-accent: {{ colors.primary.light.hex }};
+    --interactive-accent-hover: {{ colors.primary_container.light.hex }};
+
+    /* Links */
+    --link-color: {{ colors.primary.light.hex }};
+    --link-color-hover: {{ colors.primary_container.light.hex }};
+
+    /* Text */
+    --text-accent: {{ colors.primary.light.hex }};
+    --text-accent-hover: {{ colors.primary_container.light.hex }};
+
+    /* Selection */
+    --text-selection:
+        {{ colors.primary.light.hex | set_alpha 0.22 }};
+
+    /* Borders */
+    --background-modifier-border:
+        {{ colors.outline_variant.light.hex }};
+
+    --background-modifier-border-hover:
+        {{ colors.outline.light.hex }};
+}
