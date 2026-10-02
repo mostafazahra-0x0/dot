@@ -1,0 +1,259 @@
+{
+    "appearance": {
+        "font": {
+            "body": {
+                "family": "maple mono"
+            },
+            "clock": "maple mono",
+            "headline": {
+                "family": "maple mono"
+            },
+            "label": {
+                "family": "maple mono"
+            },
+            "mono": {
+                "family": "maple mono"
+            },
+            "title": {
+                "family": "thmanyah sans"
+            },
+            "workspaces": "maple mono"
+        },
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "visualiser": {
+            "autoHide": true,
+            "blur": true,
+            "enabled": true,
+            "rounding": 1,
+            "spacing": 1
+        },
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": true,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": true,
+            "showDate": true,
+            "showSeconds": true
+        },
+        "entries": [
+            {
+                "enabled": false,
+                "id": "logo"
+            },
+            {
+                "enabled": true,
+                "id": "workspaces"
+            },
+            {
+                "enabled": true,
+                "id": "spacer"
+            },
+            {
+                "enabled": false,
+                "id": "activeWindow"
+            },
+            {
+                "enabled": true,
+                "id": "spacer"
+            },
+            {
+                "enabled": true,
+                "id": "tray"
+            },
+            {
+                "enabled": true,
+                "id": "clock"
+            },
+            {
+                "enabled": true,
+                "id": "statusIcons"
+            },
+            {
+                "enabled": true,
+                "id": "power"
+            }
+        ],
+        "persistent": true,
+        "popouts": {
+            "activeWindow": true,
+            "tray": true
+        },
+        "scrollActions": {
+            "brightness": true,
+            "volume": true,
+            "workspaces": true
+        },
+        "showOnHover": true,
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": false,
+                "id": "audio"
+            },
+            {
+                "enabled": false,
+                "id": "microphone"
+            },
+            {
+                "enabled": false,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "battery"
+            }
+        ],
+        "tray": {
+            "background": true,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": true,
+            "perMonitor": true,
+            "showUnoccupied": true,
+            "showWindows": false,
+            "showWindowsOnSpecialWorkspaces": true,
+            "shown": 6
+        }
+    },
+    "dashboard": {
+        "dragThreshold": 55,
+        "showClockSeconds": true
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ],
+            "playback": [
+                "swash"
+            ],
+            "terminal": [
+                "kitty"
+            ]
+        }
+    },
+    "launcher": {
+        "actionPrefix": "/",
+        "enableDangerousActions": true,
+        "favouriteApps": [
+            "kitty",
+            "localsend",
+            "obsidian",
+            "dev.zed.Zed",
+            "zen"
+        ],
+        "showOnHover": true,
+        "useFuzzy": {
+            "actions": true,
+            "apps": true,
+            "schemes": true,
+            "variants": true,
+            "wallpapers": true
+        }
+    },
+    "notifs": {
+        "defaultExpireTimeout": 2000,
+        "fullscreen": "Off",
+        "openExpanded": false
+    },
+    "paths": {
+        "sessionGif": "undefined",
+        "wallpaperDir": "~/Pictures/Wallpapers"
+    },
+    "services": {
+        "clockFormat": "TwelveHour",
+        "dataUnits": "Decimal",
+        "gpuType": "Auto",
+        "lyricsBackend": "Auto",
+        "smartScheme": true,
+        "useFahrenheit": false,
+        "visualiserBars": 15,
+        "weatherUnits": "Celsius"
+    },
+    "sidebar": {
+        "dragThreshold": 40,
+        "enabled": true
+    },
+    "utilities": {
+        "enabled": true,
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": true,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": true,
+                "id": "visualiser"
+            },
+            {
+                "enabled": true,
+                "id": "vpn"
+            }
+        ],
+        "vpn": {
+            "enabled": false,
+            "provider": [
+                {
+                    "connectCmd": [
+                        "protonvpn",
+                        "connect"
+                    ],
+                    "disconnectCmd": [
+                        "protonvpn",
+                        "disconnect"
+                    ],
+                    "displayName": "Proton VPN",
+                    "id": "vpn-3e9d25-aa2ce7",
+                    "interface": "proton0",
+                    "name": "protonvpn"
+                }
+            ],
+            "selectedProvider": "vpn-3e9d25-aa2ce7"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "wallpaper": {
+    "postHook": "nohup /home/mostafazahra/.local/bin/caelestia-noctalia-sync.sh >/tmp/caelestia-noctalia-sync.log 2>&1 &"
+  },
+  "theme": {
+    "postHook": "nohup /home/mostafazahra/.local/bin/caelestia-noctalia-sync.sh >/tmp/caelestia-noctalia-sync.log 2>&1 &"
+  }
+}

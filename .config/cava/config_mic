@@ -1,0 +1,43 @@
+[input]
+method = pipewire
+source = alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Mic1__source
+[color]
+theme = "noctalia"
+[general]
+# Number of bars (20-200) - fewer bars = better performance
+bars = auto
+# Framerate (1-144) - higher = smoother but more CPU intensive
+framerate = 60
+
+
+[output]
+# Output method: ncurses, terminal, raw, or circle
+method = ncurses
+# Terminal color scheme
+style = stereo
+
+
+[smoothing]
+# Noise reduction (0-100) - higher = smoother but less responsive
+# 77 is default, 85 provides good balance for smooth visualization
+noise_reduction = 85
+
+# Monstercat smoothing (0 or 1) - adds smoothing between adjacent bars
+monstercat = 1
+
+# Wave effect (0 or 1) - creates wave-like motion across bars
+waves = 0
+
+# Gravity (0-200) - controls how fast bars fall
+# 100 = normal gravity, 150 = faster fall, 50 = slower fall
+gravity = 120
+
+
+[eq]
+# Equalizer settings for frequency response
+# Lower frequencies tend to be louder, so reduce them slightly
+1 = 0.8
+2 = 0.9
+3 = 1.0
+4 = 1.1
+5 = 1.2

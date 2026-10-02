@@ -1,0 +1,86 @@
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "languages": {
+    "JavaScript": {
+      "formatter": "prettier",
+      "format_on_save": "on"
+    },
+    "JSX": {
+      "formatter": "prettier",
+      "format_on_save": "on"
+    },
+    "TypeScript": {
+      "formatter": "prettier",
+      "format_on_save": "on"
+    },
+    "TSX": {
+      "formatter": "prettier",
+      "format_on_save": "on"
+    }
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "default_model": {
+      "provider": "opencode",
+      "model": "zen/muse-spark-1.2",
+      "enable_thinking": true,
+      "effort": "xhigh"
+    },
+    "sidebar_side": "right",
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 100
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
+  "scrollbar": {
+    "show": "never"
+  },
+  "terminal": {
+    "font_family": "Iosevka Custom",
+    "font_size": 19.0,
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "ui_font_family": "Maple Mono",
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 900.0,
+  "buffer_font_family": "Iosevka Custom",
+  "icon_theme": "Flow You",
+  "ui_font_size": 16,
+  "buffer_font_size": 21.0,
+  "buffer_font_features": {
+    "ital": true
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Caelestia",
+    "dark": "Caelestia"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+}
