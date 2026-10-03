@@ -120,12 +120,12 @@ hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("caelestia shell brightness set '
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("caelestia shell brightness set '5%-'"), { locked = true, repeating = true })
 
 -- Fn-row duplicates (for keyboards sending F3-F8 instead of XF86)
-hl.bind("F3", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
-hl.bind("F4", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"), { locked = true, repeating = true })
-hl.bind("F5", hl.dsp.exec_cmd("wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
-hl.bind("F6", hl.dsp.exec_cmd("caelestia shell brightness set '5%-'"), { locked = true, repeating = true })
-hl.bind("F7", hl.dsp.exec_cmd("caelestia shell brightness set '+5%'"), { locked = true, repeating = true })
-hl.bind("F8", hl.dsp.exec_cmd("caelestia shell mpris playPause"), { locked = true })
+hl.bind("F3", hl.dsp.exec_cmd("caelestia shell brightness set '5%-'"), { locked = true, repeating = true })
+hl.bind("F4", hl.dsp.exec_cmd("caelestia shell brightness set '+5%'"), { locked = true, repeating = true })
+hl.bind("F5", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
+hl.bind("F6", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"), { locked = true, repeating = true })
+hl.bind("F7", hl.dsp.exec_cmd("wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
+hl.bind("F8", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"), { locked = true })
 
 -------------------
 ---- UTILITIES ----

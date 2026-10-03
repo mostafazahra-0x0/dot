@@ -1,4 +1,10 @@
 {
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true,
+    "anthropic_retention": false
+  },
+  "proxy": "",
   "lsp": {
     "vtsls": {
       "settings": {

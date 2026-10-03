@@ -45,6 +45,7 @@ alias ser='serie'
 alias ff='fastfetch'
 alias cavamic="cava -p ~/.config/cava/config_mic"
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias s='cd ..'
 export PATH="$HOME/.cargo/bin:$PATH"
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
