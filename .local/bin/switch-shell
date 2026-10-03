@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if Caelestia shell is running (exact qs invocation, avoids matching this script)
+if pgrep -f "qs -c caelestia" > /dev/null; then
+    pkill -f "qs -c caelestia"
+    sleep 0.5
+    noctalia -d &
+    notify-send "Shell Switch" "Switched to Noctalia"
+# Check if Noctalia is running (exact match, avoids watch-pixie-wallpaper.sh false positive)
+elif pgrep -x "noctalia" > /dev/null; then
+    pkill -x "noctalia"
+    sleep 0.5
+    caelestia shell -d &
+    notify-send "Shell Switch" "Switched to Caelestia"
+else
+    # Fallback if neither is running (Caelestia is default)
+    caelestia shell -d &
+    notify-send "Shell Switch" "Started Caelestia"
+fi
